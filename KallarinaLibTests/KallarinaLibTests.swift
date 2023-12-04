@@ -9,9 +9,20 @@ import XCTest
 @testable import KallarinaLib
 
 class KallarinaLibTests: XCTestCase {
+    
+    var kallarinaLib: KallarinaLib!
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        kallarinaLib = KallarinaLib();
+    }
+    
+    func testAdd() {
+        XCTAssertEqual(kallarinaLib.add(a: 5, b: 3), 8);
+    }
+    
+    func testSub() {
+        XCTAssertEqual(kallarinaLib.sub(a: 8, b: 5), 3);
     }
 
     override func tearDownWithError() throws {

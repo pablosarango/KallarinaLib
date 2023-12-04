@@ -11,6 +11,7 @@
 		7C306C9A2B1E89100024DA7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C306C992B1E89100024DA7A /* ContentView.swift */; };
 		7C306C9C2B1E89180024DA7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C306C9B2B1E89180024DA7A /* Assets.xcassets */; };
 		7C306C9F2B1E89180024DA7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C306C9E2B1E89180024DA7A /* Preview Assets.xcassets */; };
+		7C306CA42B1E95BA0024DA7A /* KallarinaLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C306CA32B1E95BA0024DA7A /* KallarinaLib.swift */; };
 		7CC2F22C2B1E793B003278AC /* KallarinaLib.docc in Sources */ = {isa = PBXBuildFile; fileRef = 7CC2F22B2B1E793B003278AC /* KallarinaLib.docc */; };
 		7CC2F2322B1E793C003278AC /* KallarinaLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CC2F2272B1E793B003278AC /* KallarinaLib.framework */; };
 		7CC2F2372B1E793C003278AC /* KallarinaLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC2F2362B1E793C003278AC /* KallarinaLibTests.swift */; };
@@ -33,6 +34,7 @@
 		7C306C992B1E89100024DA7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7C306C9B2B1E89180024DA7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C306C9E2B1E89180024DA7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7C306CA32B1E95BA0024DA7A /* KallarinaLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KallarinaLib.swift; sourceTree = "<group>"; };
 		7CC2F2272B1E793B003278AC /* KallarinaLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KallarinaLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CC2F22A2B1E793B003278AC /* KallarinaLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KallarinaLib.h; sourceTree = "<group>"; };
 		7CC2F22B2B1E793B003278AC /* KallarinaLib.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = KallarinaLib.docc; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 			children = (
 				7CC2F22A2B1E793B003278AC /* KallarinaLib.h */,
 				7CC2F22B2B1E793B003278AC /* KallarinaLib.docc */,
+				7C306CA32B1E95BA0024DA7A /* KallarinaLib.swift */,
 			);
 			path = KallarinaLib;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CC2F22C2B1E793B003278AC /* KallarinaLib.docc in Sources */,
+				7C306CA42B1E95BA0024DA7A /* KallarinaLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,6 +532,7 @@
 		7CC2F23F2B1E793C003278AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -543,6 +548,7 @@
 		7CC2F2402B1E793C003278AC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
